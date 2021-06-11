@@ -5,17 +5,17 @@ import './Layout.scss'
 
 function Layout() {
 
-        return (
-            <div>
-                <main>
-                    <Landing/>
-                </main>
-            </div>
-        )
+    return (
+        <div>
+            <main>
+                <Landing />
+            </main>
+        </div>
+    )
 }
 
 ReactDOM.render(
-    <Layout/>,
+    <Layout />,
     document.getElementById('root')
 )
 

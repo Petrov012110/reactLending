@@ -1,3 +1,37 @@
-.landing{
-    font-size: 24px;
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+html,
+body {
+    height: 100%;
+    background-color: #fff;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #222835;
+}
+ul,
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #546e7a;
+    line-height: 24px;
+    font-weight: 500;
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }

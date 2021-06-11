@@ -4,6 +4,7 @@ import './App.css';
 import Layout from './hoc/Layout/Layout'
 import Landing from './containers/Landing/Landing'
 
+
 const App = () => {
   return (
     <Layout>
