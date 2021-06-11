@@ -1,17 +1,22 @@
-import React, {Component} from 'react'
-
+import ReactDOM from 'react-dom';
+import React from 'react';
+import Landing from '../../containers/Landing/Landing'
 import './Layout.scss'
 
-class Layout extends Component {
-    render() {
+function Layout() {
+
         return (
             <div>
                 <main>
-                    {this.props.children}
+                    <Landing/>
                 </main>
             </div>
         )
-    }
 }
+
+ReactDOM.render(
+    <Layout/>,
+    document.getElementById('root')
+)
 
 export default Layout

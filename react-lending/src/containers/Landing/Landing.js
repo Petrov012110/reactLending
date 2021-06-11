@@ -1,14 +1,20 @@
-import React, {Component} from 'react'
+import ReactDOM from 'react-dom';
+import React from 'react';
 import './Landing.scss'
 
-class Landing extends Component {
-    render() {
+const Landing = () => {
+
         return (
             <div className="landing">
                 <h1>Landing</h1>
             </div>
         )
-    }
+
 }
+
+ReactDOM.render(
+    <Landing/>,
+    document.getElementById('root')
+);
 
 export default Landing
